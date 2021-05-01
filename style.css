@@ -1,0 +1,107 @@
+header{
+    background-color: indigo;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.container {
+    display: grid;
+
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 300pt 300pt;
+
+    grid-template-areas:
+      "header header header"
+      "visit contact comment"
+      
+  }
+  .rectangle1{
+    
+    width:100px;
+  height:20px;
+  background:blue;
+}
+.visit{
+    background-color: violet;
+    grid-area: visit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.rectangle2{
+   
+    width:100px;
+  height:20px;
+  background:cyan;
+}
+
+.contact{
+    background-color: violet;
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.rectangle3{
+    
+    width:100px;
+  height:20px;
+  background:teal;
+}
+.comment{
+    background-color: violet;
+    grid-area: comment;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+
+  @media(max-width: 576px){
+      .container{
+          flex-direction: column;
+          background-color: violet;
+          grid-template-columns: 1fr;
+          grid-template-areas:
+          "header"
+          "visit"
+          "contact"
+          "comment"
+      }
+      header{
+          font-size: 20px;
+          color: black;
+          background-color: violet;
+      }
+      .visit{
+          background-color: white;
+      }
+      .contact{
+        background-color: white;
+    }
+    .comment{
+        background-color: white;
+    }
+  }
