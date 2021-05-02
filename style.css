@@ -33,7 +33,7 @@ header{
     justify-content: center;
     align-items: center;
     color: black;
-    border: 1px solid black;
+    border: 2px solid indigo;
     padding: 10px;
 }
 
@@ -53,7 +53,7 @@ header{
     justify-content: center;
     align-items: center;
     color: black;
-    border: 1px solid black;
+    border: 2px solid indigo;
     padding: 10px;
 }
 
@@ -73,7 +73,7 @@ header{
     justify-content: center;
     align-items: center;
     color: black;
-    border: 1px solid black;
+    border: 2px solid indigo;
     padding: 10px;
 }
 
