@@ -5,7 +5,7 @@ header{
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 .container {
     display: grid;
@@ -63,6 +63,7 @@ header{
   height:20px;
   background:teal;
 }
+
 .comment{
     background-color: violet;
     grid-area: comment;
@@ -103,5 +104,17 @@ header{
     }
     .comment{
         background-color: white;
+    }
+    .rectangle1:hover {
+        width:150px;
+        height: 30px;
+    }
+    .rectangle2:hover {
+        width:150px;
+        height: 30px;
+    }
+    .rectangle3:hover {
+        width:150px;
+        height: 30px;
     }
   }
